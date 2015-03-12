@@ -18,6 +18,6 @@ int main(){
     printf("end.tv_sec: %d\n", end.tv_sec);
     printf("end.tv_usec: %d\n",end.tv_usec);
     exe_time = (end.tv_sec - start.tv_sec)*1000000+(end.tv_usec-start.tv_usec);
-    printf("time used = %f\sn",exe_time/1000000);
+    printf("time used = %fs\n",exe_time/1000000);
     return 0;
 }
